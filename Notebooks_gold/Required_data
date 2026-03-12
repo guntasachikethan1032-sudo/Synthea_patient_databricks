@@ -1,0 +1,14 @@
+CREATE OR REPLACE VIEW synthea_patient_data.gold.merged_data
+AS (
+SELECT 
+p.full_name,
+p.gender,
+p.age,
+m.medication_description,
+m.med_start_date,
+m.total_cost
+FROM 
+ synthea_patient_data.silver.patient_processed as p
+JOIN synthea_patient_data.silver.medications_processed m ON p.patient_id = m.patient_id
+
+);
