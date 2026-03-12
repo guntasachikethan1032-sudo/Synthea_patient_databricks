@@ -1,3 +1,6 @@
+<img width="811" height="257" alt="image" src="https://github.com/user-attachments/assets/81cc23da-dce2-4b40-af61-4a9a5eee31fd" />
+
+
 # Synthea_patient_databricks
 I have used this repository to showcase my learnings from the past week. 
 
